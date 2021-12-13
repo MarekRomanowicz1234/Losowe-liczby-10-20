@@ -35,7 +35,7 @@ namespace Losowe_liczby_10_20
             Console.Write($"{number}, ");
         }
       
-        static bool CheckIfSumOf3NumbersDividedBy3(List<int> Numbers)
+        static bool CheckIfSumOf3NumbersDividedBy3(List<int> Numbers) //check
         {
             if (((Numbers[Numbers.Count - 1])+
                 (Numbers[Numbers.Count - 2])+
